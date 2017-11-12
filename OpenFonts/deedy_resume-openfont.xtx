@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Deedy - One Page Two Column Resume
 % LaTeX Template
-% Version 1.2 (16/9/2014)
+% Version 1.4 (12/11/2017)
 %
 % Original author:
 % Debarghya Das (http://debarghyadas.com)
@@ -85,13 +85,9 @@
 
 \subsection{Carnegie Mellon}
 \subsection{University}
-\descript{B.S. in Electrical and}
+\descript{BS in Electrical and}
 \descript{Computer Engineering}
-\location{Grad. May 2016 | Pittsburgh, PA}
-\sectionsep
-
-\subsection{Stuyvesant High School}
-\location{Grad. June 2012 | New York, NY}
+\location{May 2016 | Pittsburgh, PA}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -99,53 +95,51 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Location} 
-\subsection{Current Address}
-160 - 16 73\textsuperscript{rd} Ave Fresh Meadows \\
-New York, NY 11366 \\
+\subsection{Current}
+611 William Penn Place \\
+Pittsburgh, PA 15219 \\
 \sectionsep
 
-\subsection{Permanent Address}
-160 - 16 73\textsuperscript{rd} Ave Fresh Meadows \\
-New York, NY 11366 \\
+\subsection{Permanent}
+21-47 Utopia Parkway \\
+Whitestone, NY 11357 \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Coursework}
-\subsection{Software}
-Web Application Development \\
-Software Engineering \\
-Software Construction \\
-Operating Systems \\
-Computer Systems \\
-Functional Programming \\
-Imperative Programming \\
+\section{Certifications}
+Front-End Web UI: Bootstrap 4 \\
 \sectionsep
 
-\subsection{Hardware}
+\section{Coursework}
+Web Application Development \\
+Principles of Software Construction \\
 Embedded System Design \\
 Embedded Real-Time Systems \\
+Intro to Software Engineering \\
+Intro to Functional Programming \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
+%     STACK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Skills}
-\subsection{Programming}
-\location{Proficient:}
-Java \textbullet{} C \textbullet{} Python \textbullet{} SML \\
-x86 Assembly \textbullet{} ARM Assembly \\
-\location{Familiar:}
-MATLAB \textbullet{} AS3 \textbullet{} \LaTeX\ \\
+\section{Tech Stack}
+
+\subsection{Front-End}
+React.js | Django \\
+JavaScript | jQuery \\
+AJAX | Bootstrap \\
+HTML | CSS \\
 \sectionsep
 
-\subsection{Web Development}
-\location{Proficient:}
-React \textbullet{} Django \textbullet{} Javascript \\
-HTML5 \textbullet{} CSS3 \textbullet{} Git \\
+\subsection{Back-End}
+Java | Python \\
+C | SQL \\
+Unix | Shell \\
+Git | Assembly \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -163,68 +157,67 @@ HTML5 \textbullet{} CSS3 \textbullet{} Git \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Nysnetech}
-\descript{| Software Engineering Intern }
-\location{May 2015 - Aug 2015 | Shanghai, China}
+\runsubsection{BNY Mellon}
+\descript{| Lead Developer}
+\location{Feb 2017 - Present | Pittsburgh, PA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developed a mobile chat client that provides users with easy access to retail agents.
-\item Learned and used the recently developed React Javascript library to design a cohesive user interface.
-\item Added on to the WebSocket communication protocol to create a message logging feature.
+\item Built a monitoring system that is used on a daily basis to validate database health.
+\item Extended Hadoop application to load and process transactions from EMEA accounts.
+\item Created shell script that generates ad hoc, customizable customer reports.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{ChemCollective}
-\descript{| Researcher }
-\location{June 2015 – Aug 2015 | Pittsburgh, PA (remote)}
+\runsubsection{Nysnetech}
+\descript{| Software Engineering Intern}
+\location{May 2015 - Aug 2015 | Shanghai, China}
 \begin{tightemize}
-\item Built a dimensional analysis tutoring application using React and Flux.
-\item Tutor features drag-and-drop functionality and error-checking.
-\item Created an extensible expressions manager that evaluates user inputs.
+\item Worked as primary front-end engineer, utilizing tools such as React.js and Bootstrap.
+\item Developed chat client to faciliate interactions between users and retail agents.
+\item Built on existing WebSocket API to create conversation history feature.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{ChemCollective}
-\descript{| Researcher }
+\descript{| Research}
 \location{June 2014 – Aug 2014 | Pittsburgh, PA}
 \begin{tightemize}
-\item Worked on the ChemCollective Virtual Laboratory team as lead web developer.
-\item Restructured web pages to include dynamic content.
-\item Fixed several authentication issues with the teacher and student homepages.
-\item Implemented a progress report generator for student assignments, details the accuracy of submitted answers and suggests study tips.
+\item Worked on Virtual Laboratory team as lead web developer.
+\item Fixed PHP based authentication system to keep track of student progress on assignments.
+\item Created teacher homepage complete with detailed class and student information.
 \end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
+%     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
-\runsubsection{grumblr.}
+\runsubsection{Dominion}
 \location{}
 \begin{tightemize}
-\item Created a featureful and interactive web application with Django and Python.
-\item Integrated user authentication with email verification and provided quasi-real-time updates of media content.
-\item Gained experience using an iterative development process that closely mirrors modern AGILE practices.
-\item Used jQuery and AJAX to asynchronously deliver feed content to users.
+\item Built real-time multi-player card game with Socket.IO and JavaScript.
+\item Uses a tree based event system to resolve player actions and reactions.
+\item Complete with Web UI written in React.js and utilizing Material-UI.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Scrabble Framework}
+\runsubsection{Grumblr}
 \location{}
 \begin{tightemize}
-\item Built a multiplayer extensible game of Scrabble using Java and Swing.
-\item Core of user interface utilizes a Model-View-Controller design pattern.
-\item Features customizable plugins, presenting users with a variety of game modes.
+\item Created an interactive nanoblogging site based in Django and Python.
+\item Utilizes jQuery and AJAX to deliver feed content to users, providing quasi-real-time updates of media content.
+\item Features user authentication, email verification, and follows.
+\item Gained experience working with Agile software development.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Multi-threaded Web Proxy}
+\runsubsection{Scrabble with Stuff}
 \location{}
 \begin{tightemize}
-\item Worked with a partner in writing a concurrent thread-based proxy.
-\item Used POSIX socket API to handle network I/O and redirect HTTP requests.
-\item Implemented a LRU eviction algorithmn to cache frequent HTTP requests, protected cache access with semaphores.
+\item Built single-player board game featuring interactive tiles.
+\item Core application implemented using MVC design pattern.
+\item Designed GUI using Swing components.
 \end{tightemize}
 \sectionsep
 
