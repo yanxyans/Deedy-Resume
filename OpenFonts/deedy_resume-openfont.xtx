@@ -81,8 +81,7 @@
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Education} 
-
+\section{Education}
 \subsection{Carnegie Mellon}
 \subsection{University}
 \descript{BS in Electrical and}
@@ -91,35 +90,26 @@
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LOCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Location} 
-\subsection{Current}
-611 William Penn Place \\
-Pittsburgh, PA 15219 \\
-\sectionsep
-
-\subsection{Permanent}
-21-47 Utopia Parkway \\
-Whitestone, NY 11357 \\
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Certifications}
-Front-End Web UI: Bootstrap 4 \\
+Coursera Bootstrap 4 Cert \\
+Coursera Angular Cert \\
 \sectionsep
 
 \section{Coursework}
+\subsection{Software}
 Web Application Development \\
-Principles of Software Construction \\
-Embedded System Design \\
+Software Construction \\
+Software Engineering \\
+Computer Systems \\
+Functional Programming \\
+\sectionsep
+
+\subsection{Hardware}
+Embedded Systems Design \\
 Embedded Real-Time Systems \\
-Intro to Software Engineering \\
-Intro to Functional Programming \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -128,18 +118,27 @@ Intro to Functional Programming \\
 
 \section{Tech Stack}
 
-\subsection{Front-End}
-React.js | Django \\
-JavaScript | jQuery \\
-AJAX | Bootstrap \\
-HTML | CSS \\
+\subsection{Front}
+Javascript \\
+React \\
+Django \\
+jQuery \\
+HTML5 \\
+CSS \\
 \sectionsep
 
-\subsection{Back-End}
-Java | Python \\
-C | SQL \\
-Unix | Shell \\
-Git | Assembly \\
+\subsection{Back}
+Java \\
+Python \\
+Hadoop \\
+Hive \\
+Oozie \\
+Sqoop \\
+C \\
+\sectionsep
+
+\subsection{Version Control}
+Git \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
