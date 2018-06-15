@@ -157,13 +157,15 @@ Git \\
 
 \section{Experience}
 \runsubsection{BNY Mellon}
-\descript{| Lead Developer}
-\location{Feb 2017 - Present | Pittsburgh, PA}
+\descript{| Software Developer}
+\location{Feb 2017 - Present | New York, NY}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Built a monitoring system that is used on a daily basis to validate database health.
-\item Extended Hadoop application to load and process transactions from EMEA accounts.
-\item Created shell script that generates ad hoc, customizable customer reports.
+\item Reduced the time taken to run monthly Hadoop jobs by 50% after consolidating common components and optimizing Oozie workflows
+\item Designed and implemented an extensible program that accepts a variety of selection criteria in producing ad hoc datasets
+\item Built a monitoring system in Bash, Hive, and Oozie that is used on a daily basis to validate database health
+\item Created a tool in Bash to adjust inconsistencies in account deposit information without loss of data integrity
+\item Compressed Hive tables with ORC file format and reduced space usage by 90%
 \end{tightemize}
 \sectionsep
 
