@@ -208,12 +208,9 @@ Git \\
 \runsubsection{Grumblr}
 \location{}
 \begin{tightemize}
-
-
-\item Created an interactive nanoblogging site based in Django and Python.
-\item Utilizes jQuery and AJAX to deliver feed content to users, providing quasi-real-time updates of media content.
-\item Features user authentication, email verification, and follows.
-\item Gained experience working with Agile software development.
+\item Developed, tested, and deployed a nanoblogging website using the Django web framework
+\item Delivered feed content to users in quasi-realtime by way of Ajax calls
+\item Implemented several features including user authentication, email verification, photo upload, and user follow
 \end{tightemize}
 \sectionsep
 
