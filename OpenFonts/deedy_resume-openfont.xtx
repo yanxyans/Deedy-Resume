@@ -162,11 +162,11 @@ Git \\
 \location{Feb 2017 - Present | New York, NY}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Reduced the time taken to run monthly Hadoop jobs by 50% after consolidating common components and optimizing Oozie workflows
+\item Reduced the time taken to run monthly Hadoop jobs by 50\% after consolidating common components and optimizing Oozie workflows
 \item Designed and implemented an extensible program that accepts a variety of selection criteria in producing ad hoc datasets
 \item Built a monitoring system in Bash, Hive, and Oozie that is used on a daily basis to validate database health
 \item Created a tool in Bash to adjust inconsistencies in account deposit information without loss of data integrity
-\item Compressed Hive tables with ORC file format and reduced space usage by 90%
+\item Compressed Hive tables with ORC file format and reduced space usage by 90\%
 \end{tightemize}
 \sectionsep
 
@@ -202,7 +202,7 @@ Git \\
 \item Put together front-end components with React and back-end components with Node and Express
 \item Used Socket.IO to send player actions and events between client and server in realtime
 \item Resolved player actions and reactions with an event tree system
-\item Players can connect and play games with others and reconnect in the event of a disconnect
+\item Players can connect and play games with other players and reconnect in the event of a disconnect
 \end{tightemize}
 \sectionsep
 
