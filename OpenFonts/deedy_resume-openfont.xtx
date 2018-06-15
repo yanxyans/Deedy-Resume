@@ -197,15 +197,19 @@ Git \\
 \runsubsection{Dominion}
 \location{}
 \begin{tightemize}
-\item Built real-time multi-player card game with Socket.IO and JavaScript.
-\item Uses a tree based event system to resolve player actions and reactions.
-\item Complete with Web UI written in React.js and utilizing Material-UI.
+\item Designed and implemented a deck-building card game so as to become more familiar with Javascript, React, and modern web technologies
+\item Put together front-end components with React and back-end components with Node and Express
+\item Used Socket.IO to send player actions and events between client and server in realtime
+\item Resolved player actions and reactions with an event tree system
+\item Players can connect and play games with others and reconnect in the event of a disconnect
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Grumblr}
 \location{}
 \begin{tightemize}
+
+
 \item Created an interactive nanoblogging site based in Django and Python.
 \item Utilizes jQuery and AJAX to deliver feed content to users, providing quasi-real-time updates of media content.
 \item Features user authentication, email verification, and follows.
