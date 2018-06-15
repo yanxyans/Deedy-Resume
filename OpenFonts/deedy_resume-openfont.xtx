@@ -214,14 +214,5 @@ Git \\
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Scrabble with Stuff}
-\location{}
-\begin{tightemize}
-\item Built single-player board game featuring interactive tiles.
-\item Core application implemented using MVC design pattern.
-\item Designed GUI using Swing components.
-\end{tightemize}
-\sectionsep
-
 \end{minipage} 
 \end{document}  \documentclass[]{article}
