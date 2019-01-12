@@ -95,7 +95,7 @@
 
 \section{Certifications}
 \subsection{Coursera}
-Bootstrap 4 \\
+Bootstrap \\
 Angular \\
 \sectionsep
 
@@ -120,7 +120,7 @@ Embedded Real-Time Systems \\
 \section{Tech Stack}
 
 \subsection{Front}
-Javascript \\
+JavaScript \\
 React \\
 Django \\
 jQuery \\
@@ -162,10 +162,10 @@ Git \\
 \location{Feb 2017 - Present | New York, NY}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Reduced the time taken to run monthly Hadoop jobs by 50\% after consolidating common components and optimizing Oozie workflows
-\item Designed and implemented an extensible program that accepts a variety of selection criteria and generates ad hoc datasets
-\item Built a monitoring system in Bash, Hive, and Oozie that is used on a daily basis to validate database health
-\item Created a tool in Bash to adjust inconsistencies in account deposit information without loss of data integrity
+\item Halved execution time of monthly Hadoop jobs by optimizing Oozie workflows and Hive query logic
+\item Wrote an extensible, flexible Bash program to generate ad-hoc customer balance reports
+\item Built a monitoring system used on a daily basis to validate database health
+\item Created a tool to adjust inconsistencies in account deposit information without loss of data integrity
 \end{tightemize}
 \sectionsep
 
@@ -173,9 +173,8 @@ Git \\
 \descript{| Software Engineering Intern}
 \location{May 2015 - Aug 2015 | Shanghai, China}
 \begin{tightemize}
-\item Worked on front-end development tasks and gained experience with Javascript frameworks such as React and Bootstrap
-\item Developed and deployed a chat client built in React that facilitated interaction between users and retail agents
-\item Implemented a conversation history feature by using WebSockets to keep track of recent messages
+\item Tasked with front-end work, learned and used React to develop a featureful chat client
+\item Wrote WebSocket code to log user messages, worked on conversation history feature
 \end{tightemize}
 \sectionsep
 
@@ -184,7 +183,7 @@ Git \\
 \location{June 2014 – Aug 2014 | Pittsburgh, PA}
 \begin{tightemize}
 \item Tasked with developing and maintaining the Virtual Laboratory website
-\item Fixed PHP code to correctly manage session data and log student progress and grades on class assignments
+\item Fixed PHP code to correctly manage user session data and log student progress on class assignments
 \item Built a homepage for teachers to use to manage classes, students, and assignments
 \end{tightemize}
 \sectionsep
@@ -197,20 +196,19 @@ Git \\
 \runsubsection{Dominion}
 \location{}
 \begin{tightemize}
-\item Designed and implemented a deck-building card game so as to become more familiar with Javascript, React, and modern web technologies
-\item Put together front-end components with React and back-end components with Node and Express
-\item Used Socket.IO to send player actions and events between client and server in realtime
-\item Resolved player actions and reactions with an event tree system
-\item Players can connect and play games with other players and reconnect in the event of a disconnect
+\item Designed a web-based multiplayer card game using JavaScript, React, Node.js, and Express.js
+\item Sent and received player actions and triggered events in realtime with Socket.IO
+\item Used a tree-based event system to handle complex chains of player actions and reactions
+\item Managed game state server-side and cached player data, allowing players to reconnect to a game after a disconnect
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Grumblr}
 \location{}
 \begin{tightemize}
-\item Developed, tested, and deployed a nanoblogging website using the Django web framework
-\item Delivered feed content to users in quasi-realtime by way of Ajax calls
-\item Implemented several features including user authentication, email verification, photo upload, and user follow
+\item Implemented a blogging website using Python framework Django and deployed using DigitalOcean
+\item Delivered feed content to users by way of asynchronous Ajax calls
+\item Included user authentication, email verification, photo upload, and follows
 \end{tightemize}
 \sectionsep
 
