@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Jason}{Yan}{ \urlstyle{same}
+\href{mailto:fssyan@gmail.com}{fssyan@gmail} | 917.566.4818
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Carnegie Mellon}
+\subsection{University}
+\descript{BS in Electrical and}
+\descript{Computer Engineering}
+\location{May 2016 | Pittsburgh, PA}
+\sectionsep
+
+\subsection{Stuyvesant High}
+\subsection{School}
+\location{June 2012 | New York, NY}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Socials} 
+Github:// \href{https://github.com/yanxyans}{\bf yanxyans} \\
+LinkedIn://  \href{https://www.linkedin.com/in/jasonyangogh}{\bf jasonyangogh}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTIFICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Certifications}
+\subsection{Coursera}
+Front-End JavaScript: Angular \\
+Front-End Web UI: Bootstrap 4 \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+Java \\
+Shell \\
+Python \\
+PySpark \\
+JavaScript \\
+\sectionsep
+
+\subsection{Tools}
+Git \\
+Hive \\
+Hadoop \\
+Sqoop \\
+Oozie \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{BNY Mellon}
+\descript{| Software Engineer }
+\location{Mar 2018 - Present | New York, NY}
+\vspace{\topsep}
+\begin{tightemize}
+\item Converted output generation Oozie workflow to shell scripts, helping solve a dependency issue
+\item Integrated R modeling program with ODM ETL process, reducing monthly execution time from 10 hours to 2 hours
+\end{tightemize}
+\sectionsep
+
+\runsubsection{BNY Mellon}
+\descript{| Software Engineer }
+\location{Feb 2017 - Mar 2018 | Pittsburgh, PA}
+\begin{tightemize}
+\item Added Oozie workflow to send daily monitor reports, reducing time needed to resolve production failures from 6 hours to 3 hours
+\item Parameterized customer balance output generation, adding ad hoc reporting capabilities
+\item Extended core program to load and process EMEA deposits and transactions
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Nysnetech}
+\descript{| Software Engineering Intern }
+\location{May 2015 - Aug 2015 | Shanghai, China}
+\begin{tightemize}
+\item Learned React to develop a basic chat client with messaging capabilities
+\item Implemented a conversation history feature using WebSocket API
+\end{tightemize}
+\sectionsep
+
+\runsubsection{ChemCollective}
+\descript{| Researcher }
+\location{June 2014 - Aug 2014 | Pittsburgh, PA}
+\begin{tightemize}
+\item Fixed PHP session bug allowing students to save progress on class assignments
+\item Implemented admin page for teachers to manage students and classes
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{dominion}
+\location{}
+\begin{tightemize}
+\item Coded an online implementation of a multiplayer card game to learn React and Express
+\item Game data and logic is processed and validated server-side using JavaScript
+\item Communicated game state to clients in real-time using Socket.IO, rendered game components using Material-UI
+\item Processed player actions and triggered reactions using a tree-based event resolution system
+\end{tightemize}
+\sectionsep
+
+\runsubsection{grumblr}
+\location{}
+\begin{tightemize}
+\item Django implementation of a social networking site complete with news feeds and customizable user profiles
+\item Asynchronously delivered feed content using Ajax calls
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
